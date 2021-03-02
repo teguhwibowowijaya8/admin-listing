@@ -55,7 +55,7 @@
     },
     "extra": {
         "laravel": {
-            "providers": [
+            "dont-discover": [
                 "Brackets\\AdminListing\\AdminListingServiceProvider"
             ]
         },
