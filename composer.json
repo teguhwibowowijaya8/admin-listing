@@ -40,7 +40,7 @@
         "mockery/mockery": "0.9.*|^1.0",
         "phpunit/phpunit": "^8.5|^9.0",
         "orchestra/testbench": "~4.0|~5.0|~6.0",
-        "brackets/translatable": "dev-main"
+        "brackets/translatable": "dev-adjustment"
     },
     "autoload": {
         "classmap": [],
@@ -62,5 +62,11 @@
         "branch-alias": {
             "dev-master": "3.0-dev"
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/teguhwibowowijaya8/admin-auth"
+        }
+    ]
 }
